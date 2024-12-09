@@ -32,5 +32,5 @@ I want to continue developing and applying my web development abilities, like ht
 ## Author
 
 - Website - [Kauê](https://github.com/kauevecchia)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/kauevecchia)
+- Frontend Mentor - [@kauevecchia](https://www.frontendmentor.io/profile/kauevecchia)
 
