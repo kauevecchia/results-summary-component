@@ -128,3 +128,41 @@ main {
     border-radius: 8px;
 }
 
+.summary {
+    flex-direction: column;
+    background-color: var(--White);
+    padding: 56px 40px;
+    gap: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+
+span {
+    flex-direction: row;
+    gap: 12px;
+}
+
+.score {
+    color: var(--DarkGrayBlue);
+    font-weight: 700;
+}
+
+.total {
+    color: rgb(185, 185, 185);
+    font-weight: 700;
+}
+
+input {
+    padding: 16px;
+    background: var(--DarkGrayBlue);
+    border-radius: 32px;
+    color: var(--White);
+    font-weight: 700;
+    border: none;
+}
+
+input:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
