@@ -177,3 +177,22 @@ footer {
     padding: 16px;
 }
 
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .result {
+        border-radius: 0;
+        border-bottom-right-radius: 32px;
+        border-bottom-left-radius: 32px;
+        width: 100vw;
+    }
+
+    .result > div{
+        width: 180px;
+        height: 180px;
+    }
+}
