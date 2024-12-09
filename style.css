@@ -21,3 +21,110 @@
     --DarkGrayBlue: hsl(224, 30%, 27%);
 }
 
+body, html {
+    font-family:"Hanken Grotesk", sans-serif;
+    font-size: 18px;
+    background-color: var(--PaleBlue);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+main {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.050);
+    border-radius: 32px;
+}
+
+.result {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    flex-direction: column;
+    border-radius: 32px;
+    gap: 32px;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    padding: 56px 40px;
+}
+
+.result h2, p {
+    color: rgba(255, 255, 255, 0.708);
+}
+
+.result h1 {
+    color: var(--White);
+}
+
+.result > div{
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result > div > p:first-of-type {
+    font-size: 64px;
+    color: white;
+    font-weight: 800;
+}
+
+.results {
+    flex-direction: column;
+    gap: 16px;
+}
+
+.results > div {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 72px;
+    padding: 16px;
+}
+
+.results > div:nth-child(1) > span > p {
+    color: var(--LightRed);
+    font-weight: 700;
+}
+
+.results > div:nth-child(1) {
+    background-color: hsla(0, 100%, 67%, 0.080);
+    border-radius: 8px;
+}
+
+.results > div:nth-child(2) > span > p {
+    color: var(--OrangeYellow);
+    font-weight: 700;
+}
+
+.results > div:nth-child(2) {
+    background-color: hsla(39, 100%, 56%, 0.080);
+    border-radius: 8px;
+}
+
+.results > div:nth-child(3) > span > p {
+    color: var(--GreenTeal);
+    font-weight: 700;
+}
+
+.results > div:nth-child(3) {
+    background-color: hsla(166, 100%, 37%, 0.080);
+    border-radius: 8px;
+}
+
+.results > div:nth-child(4) > span > p {
+    color: var(--LightRoyalBlue);
+    font-weight: 700;
+}
+
+.results > div:nth-child(4) {
+    background-color: hsla(241, 81%, 54%, 0.080);
+    border-radius: 8px;
+}
+
